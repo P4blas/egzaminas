@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(214, 212, 212);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(26, 22, 22);
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navBar div {
+    display: flex;
+    margin-left: 50px;
+}
+
+.navBar .nav_btn {
+    margin-right: 50px;
+    margin-left: 0px;
+    gap: 25px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.navBar h1 {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.navBar .nav_btn:hover {
+    color: black;
+}
+
+.app-header {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.app-header .header_text {
+    width: 800px;
+}
+
+.app-header img {
+    width: 650px;
+    height: 650px;
+}
+
+.section_skelbimai {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(34, 26, 26);
+    text-align: center;
+}
+
+.section_skelbimai .section_skelbimai_h1 {
+    padding: 25px;
+    font-size: 50px;
+    color: white;
+}
+
+.skelbimai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    padding: 50px;
+}
+
+.section_skelbimai .nauji_skelbimai, .karsti_skelbimai {
+    height: 450px;
+    width: 550px;
+    border-radius: 25px;
+}
+
+.section_skelbimai .nauji_skelbimai img, .karsti_skelbimai img {
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    transition: 0.3s;
+}
+
+.section_skelbimai .nauji_skelbimai img:hover, .karsti_skelbimai img:hover {
+    transform: scale(1.05);
+}
+
+.section_skelbimai .nauji_skelbimai h1, .karsti_skelbimai h1 {
+    color: white;
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+.skelbimaiList {
+    height: 1000px;
+    text-align: center;
+}
+
+.skelbimaiList h1 {
+    font-size: 32px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.skelbimaiList input {
+    height: 45px;
+    width: 500px;
+    padding: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.skelbimu_input .addSkelbimas_btn {
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 5px;
+}
